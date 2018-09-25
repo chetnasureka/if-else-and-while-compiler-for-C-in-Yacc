@@ -1,0 +1,37 @@
+//Nested If-Else
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(int argv,char *argc[])
+{
+	int a;
+	int b;
+	int c;
+	int i;
+	int j;
+	int k;
+	int z;
+	a=6;
+	z=5;
+	i=3;
+	k=6;
+	if(a<10)
+	{
+		printf("HELL0");
+		i=i+1;
+		k=k*10;
+		if(i)
+		{
+			printf("YYYYYY");
+		}
+		else
+		{
+			a=a+1;
+		}
+	}
+	else
+	{
+		z=z+1;
+	}
+
+}
